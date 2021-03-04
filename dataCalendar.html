@@ -41,6 +41,17 @@
         .slick-dots {
             bottom: -45px;
         }
+
+        /*  */
+        #card-week{
+            width: 504px;
+            height: 100px;
+        }
+
+        .card-day-week {
+            width: 71px;
+            height:90px;
+        }
     </style>
 </head>
 
@@ -49,8 +60,8 @@
         <!-- name week -->
         <div class="pt-16" style="width: 500px;">
             <div class="flex flex-col space-y-2">
-                <div style="width: 500px;">
-                    <h1 class="text-3xl font-light text-indigo-700 float-left mb-5">Março</h1>
+                <div style="width: 500px;" id="title">
+                    <!-- <h1 class="text-3xl font-light text-indigo-700 float-left mb-5">Março</h1> -->
                 </div>
             </div>
         </div>
@@ -60,176 +71,12 @@
         <div class="space-x-2">
             <div class="w-full h-full flex flex-row items-center justify-items-center relative">
                 <!-- CALENDÁRIO -->
-                <div id="card-week" class="bg-white rounded-lg shadow-xl p-1" style="width: 504px; height: 100px;">
-                    <div class="slick-scroll w-full h-full">
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white bg-indigo-800 border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
+                <div id="card-week" class="bg-white rounded-lg shadow-xl p-1">
+                        <!-- <div class="card-day-week group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white bg-indigo-800 border-indigo-800 text-center">
                             <div class="font-normal text-white group-hover:text-white mb-1">Sun</div>
                             <div class="font-normal text-white group-hover:text-white text-3xl">1</div>
-                        </div>
+                        </div> -->
 
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">2</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white bg-indigo-800 border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-white group-hover:text-white mb-1">Sun</div>
-                            <div class="font-normal text-white group-hover:text-white text-3xl">1</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">2</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-
-                        <div class="group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center"
-                            style="width: 71px; height:90px;">
-                            <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
-                            <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">3</div>
-                        </div>
-                    </div>
                 </div>
                 <!-- END -->
             </div>
@@ -287,7 +134,35 @@
                 ],
 
             });
+            
+            
+            /* $(".slick-prev").click(function(){
+                alert();
+            });
+            $(".slick-next").click(function(){
+                alert();
+            }); */
 
+            
+
+            /* $("#title").html('<h1 class="text-3xl font-light text-indigo-700 float-left mb-5">Marçoaa</h1>'); */
+            let date = new Date(2021, 04, 0);
+            alert(date);
+            let numberDay = date.getDate();
+
+            let htmlCardDayWeek = `            
+                <div id="content-day-week" class="slick-scroll w-full h-full">
+            `;
+            for (let i = 1; i < numberDay + 1; i++) {
+                htmlCardDayWeek += `
+                    <div class="card-day-week group rounded-lg border cursor-pointer flex flex-col py-0.5 px-0.5 mr-0.5 hover:bg-indigo-800 hover:text-white border-indigo-800 text-center">
+                        <div class="font-normal text-indigo-800 group-hover:text-white mb-1">Tue</div>
+                        <div class="font-normal text-indigo-800 group-hover:text-white text-3xl">${i}</div>
+                    </div>
+                `;
+            }
+            htmlCardDayWeek += `</div>`;
+            $("#card-week").append(htmlCardDayWeek);
         });
     </script>
 </body>
