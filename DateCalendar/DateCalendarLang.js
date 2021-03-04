@@ -37,7 +37,6 @@ class DateCalendarLang {
 
         return dayWeek
     }
-    // let day = langDay(); console.log(month[0]);
 
     /**
      * 
@@ -105,7 +104,6 @@ class DateCalendarLang {
             'dayWeek': this.langDay()
         }];
     }
-    // console.log(lang('pt-br')[0]['dayWeek'], lang('pt-br')[0]['month']);
 }
 
 module.exports = DateCalendarLang;
