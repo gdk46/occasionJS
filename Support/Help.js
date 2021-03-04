@@ -17,6 +17,7 @@ class Help {
                 return (typeof (e) == 'undefined') ? true : false;
         }
     }
+    
 }
 
 module.exports = Help;
