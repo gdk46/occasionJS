@@ -1,12 +1,16 @@
+
 class DateCalendar
 {
     /**
      * 
-     * @param {*} lang 
+     * 
+     * @param lang 
+     * @param month 
+     * @param year 
      */
-    constructor (lang,  month, year) {
+    constructor (lang, month, year) {
         const dateCalendarLang = require("./DateCalendarLang");
-        const supportHelp = require("../Support/Help");
+        const supportHelp = require("../Support/Help");        
 
         this.langDayWeekMonth = new dateCalendarLang(lang);
         this.help = new supportHelp();

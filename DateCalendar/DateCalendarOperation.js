@@ -1,7 +1,10 @@
 /*
-function generate (){
+function generate () {
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
     }    
+}
+
+function between () {
 }
 */
