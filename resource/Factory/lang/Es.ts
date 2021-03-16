@@ -1,4 +1,4 @@
-import { LangInterface } from "./LangInterface";
+import { LangInterface } from "./interface/LangInterface";
 
 export class Es implements LangInterface
 {

@@ -6,7 +6,7 @@
 
 import Format from './format';
 import Lang from './lang';
-import Operation from './operation';
+import Operation from './Operation';
 import Help from '../Support/help';
 
 export default class OccasionTS

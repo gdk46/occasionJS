@@ -1,7 +1,10 @@
-import { LangInterface } from "./LangInterface";
+import { LangInterface } from "./interface/LangInterface";
 
 export class En_us implements LangInterface
 {
+    constructor() {
+        
+    }
     dayWeek = ['Sun', 'Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat'];
     month = [
         'January', 'February', 'March', 'April', 'May', 'June',

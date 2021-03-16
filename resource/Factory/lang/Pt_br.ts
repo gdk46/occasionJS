@@ -1,4 +1,4 @@
-import { LangInterface } from "./LangInterface";
+import { LangInterface } from "./interface/LangInterface";
 
 export class Pt_br implements LangInterface
 {

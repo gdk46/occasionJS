@@ -4,17 +4,17 @@
 //! license : MIT
 //! url
 
-export default  class Operation 
+export default  class Operation
 {
-/*
-function generate () {
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-    }    
-}
+    /*
+    function generate () {
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+        }
+    }
 
-function between () {
-}
-*/
+    function between () {
+    }
+    */
 
 }
